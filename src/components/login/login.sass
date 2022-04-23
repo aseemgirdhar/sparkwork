@@ -1,0 +1,55 @@
+.login-wrapper
+    display: flex
+    height: 100vh
+    align-items: center
+    justify-content: center
+    .login-description
+        font-size: 14px
+        margin-top: 30px
+    .MuiCard-root
+        padding-top: 30px
+        text-align: center
+        border: solid 1px #ddd
+        .MuiCardContent-root
+            padding: 50px
+            button
+                width: 100%
+                margin-bottom: 15px
+                svg
+                    margin-right: 10px
+                &:last-child
+                    margin-bottom: 0
+            .signup-divider
+                display: flex
+                align-items: center
+                justify-content: center
+                height: 2px
+                background: #ddd
+                margin-top: 15px
+                margin-bottom: 30px 
+                span
+                    background: #fff
+                    display: inline-block
+                    padding: 0 10px
+    .MuiCardActions-root
+        display: flex
+        align-items: center
+        justify-content: center
+        border-top: solid 1px #ddd
+        position: relative
+        .login-lang-dropdown
+            position: absolute
+            right: 10px
+.back-forgot
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-top: 30px
+    button
+        width: auto !important
+        margin-bottom: 0 !important
+        &:first-child
+            justify-content: flex-start
+        &:last-child
+            justify-content: flex-end
+
